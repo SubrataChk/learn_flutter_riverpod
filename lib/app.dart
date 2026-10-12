@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // 390x844 ~ a standard phone (iPhone 13) used as the design reference.
-    // `.w`, `.h`, `.sp`, `.r` extensions elsewhere scale relative to this.
+    // `.w`, `.h`, `.sp`, `.r` extensions elsewhere scale relative to .
     return ScreenUtilInit(
       designSize: const Size(390, 844),
       minTextAdapt: true,
