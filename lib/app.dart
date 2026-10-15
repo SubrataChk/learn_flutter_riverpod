@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'core/theme/app_theme.dart';
-import 'features/consumer_stateful_widget/consumer_stateful_widget_view.dart';
+import 'features/Todo_app/presentation/todo_screen.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
           title: 'Riverpod Demo',
           debugShowCheckedModeBanner: false,
           theme: AppTheme.light,
-          home: const ConsumerStatefulWidgetView(),
+          home: const TodoScreen(),
         );
       },
     );
